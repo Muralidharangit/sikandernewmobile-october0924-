@@ -55,7 +55,7 @@ button.btn.btn-sm.btn-grey.fw-600.fs-10.me-1.mb-2.px-1 > img {
   padding-bottom: 4px;
 }
 .b-b {
-  border-bottom: 1px solid #b3b3b34f;
+  border-bottom: 1px solid #b3b3b34f !important;
 }
 .bet-btn {
   width: 51.28px !important;
@@ -401,10 +401,10 @@ swiper-slide:nth-child(5n) {
 }
 @media (min-width: 360px) and (max-width: 400px) {
   .slider_purple_btn {
-    width: 80px;
-    height: 40px;
-    padding: 20px;
-    font-size: 11px;
+    width: 120px;
+        height: 40px;
+        padding: 20px;
+        font-size: 12px;
   }
   .live-casino .swiper-slide a div .slider_purple_btn {
     padding: 2px !important;
@@ -1642,3 +1642,52 @@ a.list-group-item.list-group-item-action.px-2.py-1.text-left.border-bottomlightg
 .w-85{
   width: 85%;
 }
+
+
+.offcanvas-body.small.p-0.overflow-x-hidden.h-40{
+  --bs-offcanvas-zindex: 1045;
+  --bs-offcanvas-width: 400px;
+  --bs-offcanvas-height: 44vh;
+  --bs-offcanvas-padding-x: 1rem;
+  --bs-offcanvas-padding-y: 1rem;
+  --bs-offcanvas-color: var(--bs-body-color);
+  --bs-offcanvas-bg: var(--bs-body-bg);
+  --bs-offcanvas-border-width: var(--bs-border-width);
+  --bs-offcanvas-border-color: var(--bs-border-color-translucent);
+  --bs-offcanvas-box-shadow: var(--bs-box-shadow-sm);
+  --bs-offcanvas-transition: transform 0.3s ease-in-out;
+  --bs-offcanvas-title-line-height: 1.5;
+  border-radius: 0 0 20px 20px;
+}
+
+
+.mb-70{
+margin-bottom:70px !important ;
+}
+
+.mt-65{
+  margin-top: 65px !important;
+}
+.topcard-img{
+  position: absolute;
+    top: -88px;
+}
+
+.btnh-30 div button{
+  height:30px !important
+}
+/* 4 pop-up Starts */
+.table-popup-container{
+  margin-bottom: 90px;
+  background-color: #380d54;
+}
+
+.offcanvas.offcanvas-bottom.table-popup-container.max-content {
+  height:40vh !important;
+  border-radius: 0 0 20px 20px !important;
+}
+.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 div button {
+  height: 30px;
+
+}
+/* 4 pop-up Ends */
