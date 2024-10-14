@@ -778,7 +778,7 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black {
   }
 }
 .pop-btn {
-  width: 66px !important;
+  width: 86px !important;
   height: 25px;
   border: 1px solid #000;
   font-size: 9px !important;
@@ -879,12 +879,7 @@ span.text-purple.fs-11.fw-650 {
 .w-40 {
   width: 42%;
 }
-.fw-700.fs-12.text-white.mb-1.fs-12 {
-  /* font-size: 12px !important; */
-  /* font-size: 15px !important; */
-  font-size: 19px !important;
-  font-weight: 600 !important;
-}
+
 .br_bt_lightgrey {
   border-bottom: 1px solid #cccccc7e;
 }
@@ -1390,6 +1385,12 @@ span.text-purple.fs-11.fw-650 {
     .col-4.d-flex.justify-content-center {
     padding: 0 !important;
   }
+  .fw-700.fs-12.text-white.mb-1.fs-12 {
+    /* font-size: 12px !important; */
+    /* font-size: 15px !important; */
+    font-size: 19px !important;
+    font-weight: 600 !important;
+  }
 }
 
 @media (min-width: 1300px) {
@@ -1691,3 +1692,34 @@ margin-bottom:70px !important ;
 
 }
 /* 4 pop-up Ends */
+
+
+@media(max-width:500px){
+  button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
+
+    border: 1px solid #f2ff0066;
+
+}
+
+a.btn.btn-sm.btn-theme-outline.rounded-pill.text-nowrap.fs-12.fw-500.px-3.py-1.me-2 {
+  border-radius: 5px !important;
+  color: #ffffff;
+  background: #380d54;
+  /* width: 100% !important; */
+  padding: 0px 10px !important;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #f9f21199;
+  font-size: 13px !important;
+  font-weight: 600;
+  border-radius: 6px !important;
+}
+.card.casino.my-5.mb-5.lap-none.mx-mar-15{
+  margin: 15px 15px 0 15px !important;
+}
+swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_btn.latestgaming swiper-slide {
+  width: 80% !important;
+}
+}
