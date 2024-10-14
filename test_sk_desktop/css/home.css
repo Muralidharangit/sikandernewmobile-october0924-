@@ -377,7 +377,7 @@ swiper-slide:nth-child(5n) {
 }
 @media (max-width: 360px) {
   .slider_purple_btn {
-    width: 75px;
+    /* width: 75px; */
     height: 40px;
     padding: 15px;
     font-size: 10px;
@@ -1229,6 +1229,9 @@ span.text-purple.fs-11.fw-650 {
   .lap-none {
     display: none !important;
   }
+  /* .lap-none-margin{
+    display: none !important;
+  } */
   .d-flex.flex-grow-1.tab-viewgrownon {
     flex-grow: 0 !important;
     gap: 34px;
@@ -1391,6 +1394,10 @@ span.text-purple.fs-11.fw-650 {
     font-size: 19px !important;
     font-weight: 600 !important;
   }
+
+  .position-relative.br-10.br-yellow.mb-3 .mt-60 {
+    margin-top: 0px !important;
+}
 }
 
 @media (min-width: 1300px) {
@@ -1671,7 +1678,7 @@ margin-bottom:70px !important ;
 }
 .topcard-img{
   position: absolute;
-    top: -88px;
+    top: -19%;
 }
 
 .btnh-30 div button{
@@ -1722,4 +1729,104 @@ a.btn.btn-sm.btn-theme-outline.rounded-pill.text-nowrap.fs-12.fw-500.px-3.py-1.m
 swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_btn.latestgaming swiper-slide {
   width: 80% !important;
 }
+.table-headbet {
+  background: #fff;
+  margin: 6px 0 0px 0 !important;
+  padding: 0 0px 0 0 !important;
 }
+}
+
+@media(min-width:320px){
+  .topcard-img {
+    top: -12%;
+}
+
+.position-relative.br-10.br-yellow.mb-3 .mt-60 {
+  margin-top: 60px !important;
+}
+}
+@media (min-width: 360px) {
+  .topcard-img {
+    top: -13%;
+  }
+}
+
+@media (min-width: 400px) {
+  .topcard-img {
+      top: -15%;
+  }
+} 
+
+
+.topcard-img.youthteam {
+  top: -23% !important;
+}
+.topcard-img.youthteam2 {
+  top: -26% !important;
+}
+
+@media (min-width: 425px) and (max-width: 500px) {
+  .topcard-img .w-85 {
+    width: 70% !important;
+  }
+  .topcard-img.youthteam .w-85 {
+    width: 70% !important;
+  }
+  .topcard-img.youthteam2 .w-85 {
+    width: 70% !important;
+  }
+  .topcard-img.youthteam2 {
+    top: -32% !important;
+}
+
+.topcard-img.matchsumary{
+  top: -13% !important;
+}
+}
+
+
+
+/* @media (max-width: 441px) {
+  .topcard-img {
+    position: absolute;
+    top: -15%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .topcard-img{
+    top: -84px;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .topcard-img {
+    top: -96px;
+  }
+} */
+
+@media(max-width:992px){
+  .position-relative.br-10.br-yellow.mb-3 .mt-60 {
+    margin-top: 60px !important;
+}
+}
+
+
+@media(min-width:993px){
+  .position-relative.br-10.br-yellow.mb-3 .mt-60 {
+    margin-top: 0px !important;
+}
+.topcard-img.youthteam{
+  display: none !important;
+}
+
+.position-relative.br-10.br-yellow.mb-3{
+  margin-top: 0 !important;
+  border:none !important;
+}
+}
+
+
+
