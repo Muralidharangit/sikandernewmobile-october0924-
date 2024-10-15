@@ -1687,7 +1687,7 @@ margin-bottom:70px !important ;
 }
 /* 4 pop-up Starts */
 .table-popup-container{
-  margin-bottom: 90px;
+  /* margin-bottom: 90px; */
   background-color: #380d54;
 }
 
@@ -1833,3 +1833,26 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
   padding: 0 2px;
 }
 
+.offcanvas, .offcanvas-lg, .offcanvas-md, .offcanvas-sm, .offcanvas-xl, .offcanvas-xxl{
+  --bs-offcanvas-transition: transform 0.6s ease-in-out !important;
+}
+
+.offcanvas#Stackespopup_blue, .offcanvas-lg#Stackespopup_blue, .offcanvas-md#Stackespopup_blue, .offcanvas-sm#Stackespopup_blue, .offcanvas-xl #Stackespopup_blue, .offcanvas-xxl #Stackespopup_blue,
+.offcanvas#Stackespopup_red, .offcanvas-lg#Stackespopup_red, .offcanvas-md#Stackespopup_red, .offcanvas-sm#Stackespopup_red, .offcanvas-xl #Stackespopup_red, .offcanvas-xxl #Stackespopup_red{
+  --bs-offcanvas-transition: transform 0s ease-in-out !important;
+}
+
+.table-popup-container{
+  /* margin-bottom: 90px; */
+  background-color: #380d54;
+}
+
+.offcanvas.offcanvas-bottom.table-popup-container.max-content {
+  /* height:40vh !important; */
+  height:57vh !important;
+  border-radius: 0 0 20px 20px !important;
+}
+.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 div button {
+  height: 30px;
+
+}

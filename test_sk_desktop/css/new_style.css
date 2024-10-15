@@ -763,9 +763,11 @@ a.btn.sm-btn-yellow.d-flex.align-items-center.justify-content-center.rounded-pil
   transition: top 0.3s;
 }
 .h-34 {
-  height: 33px;
+  height: 39px;
 }
-
+.h-39 {
+  height: 39px !important;
+}
 @media (max-width: 992px) {
   .deposit_button {
     width: 116px !important;
