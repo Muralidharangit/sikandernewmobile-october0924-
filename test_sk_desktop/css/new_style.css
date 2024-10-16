@@ -1167,7 +1167,7 @@ display: block;
     cursor: pointer;
     font-size: 25px;
     line-height: 40px;
-    width: 42px;
+    width: 50px;
     position: fixed;
     bottom: 38% !important;
     right: 10px;
@@ -1176,12 +1176,12 @@ display: block;
     transform: translateY(100px);
     /* transition: all 0.5s ease; */
     position: fixed;
-    height: 42px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-border-radius: 22px;
-border-radius: 22px;
+    -webkit-border-radius: 50%;
+border-radius: 50%;
 display: block;
     
   }
