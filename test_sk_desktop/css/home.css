@@ -1724,6 +1724,7 @@ a.btn.btn-sm.btn-theme-outline.rounded-pill.text-nowrap.fs-12.fw-500.px-3.py-1.m
   font-size: 13px !important;
   font-weight: 600;
   border-radius: 6px !important;
+  
 }
 .card.casino.my-5.mb-5.lap-none.mx-mar-15{
   margin: 15px 15px 0 15px !important;
@@ -1919,6 +1920,15 @@ button.bg-blue.br-5.w-100.fs-10.fw-700 {
   width: 75px !important;
 
 }
+
+.topcard-img.matchsumary.lap-none{
+  top:-15% !important;
+}
+
+.topcard-img.matchsumary.lap-none div div.w-85{
+  width: 94% !important;
+}
+
 }
 
 
@@ -1982,5 +1992,15 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
 .topcard-img.youthteam div div.w-85 img {
   height: 140px;
   object-fit: contain;
+}
+
+
+.topcard-img.matchsumary.lap-nonediv div.w-85 img {
+  height: 140px;
+  object-fit: contain;
+}
+
+.topcard-img.matchsumary.lap-none div div.w-85 {
+  width: 94%;
 }
 }
