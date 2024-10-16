@@ -43,7 +43,7 @@
 .match_summary_card .table_bg-gray_top {
   background: #d5d5d5;
   color: #000;
-  margin: 0 12px;
+  margin: 5px 12px 0;
   height: 12px;
   font-size: 8px;
   font-weight: 500;
@@ -770,8 +770,13 @@ a.btn.sm-btn-yellow.d-flex.align-items-center.justify-content-center.rounded-pil
 }
 @media (max-width: 992px) {
   .deposit_button {
-    width: 116px !important;
+    /* width: 116px !important; */
+    
   }
+
+  .row.justify-content-center.w-100.mb-2.dep_btn.deskmt-95.m-0 div.d-flex div {
+    flex: 1 1 !important;
+}
 
   nav.navbar.navbar-expand-lg.bg-purple.br-yellow {
     display: none;
@@ -864,7 +869,7 @@ a.btn.sm-btn-yellow.d-flex.align-items-center.justify-content-center.rounded-pil
 
   swiper-container.mySwiper.no-border.play_btn_icon.image_play_btn_hover_effect.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden
     swiper-slide {
-    width: 30% !important;
+      width: 44% !important;
   }
 
   swiper-container.mySwiper.no-border.key_tournament.swiper-initialized.swiper-horizontal.swiper-free-mode.swiper-backface-hidden
@@ -1086,3 +1091,32 @@ a.card-tile.justify-content-center.withdraw {
   }
 }
 /* menu style Ends */
+
+
+button.whatapp.icon {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  color: #000000;
+  cursor: pointer;
+  font-size: 25px;
+  line-height: 40px;
+  width: 42px;
+  position: fixed;
+  bottom: 22%;
+  right: 10px;
+  z-index: 999999999999;
+  /* opacity: 0; */
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+  position: fixed;
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+button.whatapp.icon
+img{
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  -webkit-filter: drop-shadow(rgba(0, 0, 0,) 0px 3px 8px);
+  filter: drop-shadow(rgba(0, 0, 0,) 0px 3px 8px);
+}
