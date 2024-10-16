@@ -1103,7 +1103,7 @@ button.whatapp.icon {
   line-height: 40px;
   width: 42px;
   position: fixed;
-  bottom: 33%;
+  bottom: 43%;
   right: 10px;
   z-index: 999;
   /* opacity: 0; */
@@ -1111,12 +1111,12 @@ button.whatapp.icon {
   /* transition: all 0.5s ease; */
   position: fixed;
   height: 42px;
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
   -webkit-border-radius: 50%;
 border-radius: 50%;
-display: block !important;
+display: block;
   
 }
 
@@ -1135,7 +1135,7 @@ display: block !important;
         line-height: 40px;
         width: 42px;
         position: fixed;
-        bottom: 33% !important;
+        bottom: 43% !important;
         right: 10px;
         z-index: 999;
         /* opacity: 0; */
@@ -1148,7 +1148,7 @@ display: block !important;
         justify-content: center;
         -webkit-border-radius: 50%;
 border-radius: 50%;
-display: block !important;
+display: block;
         
       }
       
