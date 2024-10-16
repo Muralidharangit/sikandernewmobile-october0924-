@@ -1114,6 +1114,8 @@ button.whatapp.icon {
   display: flex;
   align-items: center;
   justify-content: center;
+  -webkit-border-radius: 50%;
+border-radius: 50%;
   
 }
 
@@ -1121,7 +1123,7 @@ button.whatapp.icon {
 
 @media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance:none) {
-    .fixed-top-safari {
+ 
       button.whatapp.icon {
         background-color: #ffffff;
         border: none;
@@ -1143,11 +1145,13 @@ button.whatapp.icon {
         display: flex;
         align-items: center;
         justify-content: center;
+        -webkit-border-radius: 50%;
+border-radius: 50%;
         
       }
       
       
-    }
+    
   }
 }
 button.whatapp.icon
