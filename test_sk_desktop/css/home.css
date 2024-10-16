@@ -1929,6 +1929,13 @@ button.bg-blue.br-5.w-100.fs-10.fw-700 {
   width: 94% !important;
 }
 
+.bg-lightred.br-5.w-100.fs-10.fw-700 {
+  width: 75px !important;
+  height: 21px;
+  height: 32px !important;
+  font-size: 11px !important;
+}
+
 }
 
 
