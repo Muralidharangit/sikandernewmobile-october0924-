@@ -1103,7 +1103,7 @@ button.whatapp.icon {
   line-height: 40px;
   width: 42px;
   position: fixed;
-  bottom: 43%;
+  bottom: 33%;
   right: 10px;
   z-index: 999;
   /* opacity: 0; */
@@ -1135,7 +1135,7 @@ display: block;
         line-height: 40px;
         width: 42px;
         position: fixed;
-        bottom: 43% !important;
+        bottom: 33% !important;
         right: 10px;
         z-index: 999;
         /* opacity: 0; */
@@ -1153,6 +1153,36 @@ display: block;
       }
       
       
+    
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Styles specific to iPhone SE (2nd generation) with Retina display */
+  button.whatapp.icon {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    color: #000000;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 40px;
+    width: 42px;
+    position: fixed;
+    bottom: 43% !important;
+    right: 10px;
+    z-index: 999;
+    /* opacity: 0; */
+    transform: translateY(100px);
+    /* transition: all 0.5s ease; */
+    position: fixed;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 50%;
+border-radius: 50%;
+display: block;
     
   }
 }
