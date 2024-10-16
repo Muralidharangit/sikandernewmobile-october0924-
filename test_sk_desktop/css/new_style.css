@@ -1169,7 +1169,7 @@ display: block;
     line-height: 40px;
     width: 42px;
     position: fixed;
-    bottom: 43% !important;
+    bottom: 38% !important;
     right: 10px;
     z-index: 999;
     /* opacity: 0; */
@@ -1180,8 +1180,8 @@ display: block;
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-border-radius: 50%;
-border-radius: 50%;
+    -webkit-border-radius: 22px;
+border-radius: 22px;
 display: block;
     
   }
