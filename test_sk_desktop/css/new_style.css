@@ -1105,7 +1105,7 @@ button.whatapp.icon {
   position: fixed;
   bottom: 22%;
   right: 10px;
-  z-index: 999999999999;
+  z-index: 999;
   /* opacity: 0; */
   transform: translateY(100px);
   transition: all 0.5s ease;
