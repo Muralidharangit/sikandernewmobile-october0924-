@@ -1765,7 +1765,7 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
 
   
 .topcard-img.youthteam {
-  top: -25% !important;
+  top: -98px !important;
 }
 }
 
@@ -1775,7 +1775,7 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
   }
   
 .topcard-img.youthteam {
-  top: -28% !important;
+  top: -100px !important;
 }
 } 
 
@@ -1922,7 +1922,7 @@ button.bg-blue.br-5.w-100.fs-10.fw-700 {
 }
 
 .topcard-img.matchsumary.lap-none{
-  top:-15% !important;
+  top:-111px !important;
 }
 
 .topcard-img.matchsumary.lap-none div div.w-85{
@@ -1989,7 +1989,7 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
 }
 
 .topcard-img.youthteam {
-  top: -28% !important;
+  /* top: -28% !important; */
    width: 100%;
 }
 .mt-new425 {
