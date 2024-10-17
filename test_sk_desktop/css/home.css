@@ -1209,6 +1209,8 @@ span.text-purple.fs-11.fw-650 {
   .mobile-tab-pad4 {
     padding: 0 30px;
   }
+
+  
 }
 
 .mobile-90 {
@@ -2081,4 +2083,11 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
 .topcard-img.youthteam {
   top: -120px !important;
 }
+}
+
+.d-flex.h-23 .col-3.bg-blue.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px !important;
 }
