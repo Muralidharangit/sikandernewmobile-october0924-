@@ -2108,7 +2108,8 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
 
 @media(max-width:425px){
   .container.px-1.my-3.text-white.fs-12 {
-    padding: 0 17px !important;
+    /* padding: 0 17px !important; */
+    padding: 0 10px !important;
 }
 
 button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black {
