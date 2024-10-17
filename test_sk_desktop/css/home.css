@@ -2031,6 +2031,10 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
   margin-bottom: 9px;
 }
 
+.d-flex.justify-content-end.w-100.pl-mx360 {
+  padding-right: 8px !important;
+}
+
 }
 
 
@@ -2131,8 +2135,15 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
 }
 }
 
-@media  (max-width: 425){
-  .mx-375 .d-flex.px-3.gap-18 {
+@media  (max-width: 425px){
+  /* .mx-375 .d-flex.px-3.gap-18 {
       padding: 0 12px !important;
+  } */
+
+  .mx-375 .d-flex.px-3.gap-18 {
+    padding: 0 12px !important;
+}
+  .d-flex.justify-content-end.w-100.pl-mx360 {
+    padding-right: 15px !important;
   }
 }
