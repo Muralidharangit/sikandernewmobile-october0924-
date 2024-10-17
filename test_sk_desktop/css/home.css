@@ -580,6 +580,9 @@ div#pills-tabContent {
     position: relative;
     left: -3px;
   }
+  .topcard-img.youthteam {
+    top: -114px !important;
+}
 }
 swiper-container.mySwiper.table-slidepop {
   overflow-x: clip;
@@ -1775,7 +1778,7 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
   }
   
 .topcard-img.youthteam {
-  top: -100px !important;
+  top: -112px !important;
 }
 } 
 
@@ -2033,4 +2036,42 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
     border-radius: 0 0 20px 20px !important;
 }
  
+}
+
+
+@media(min-width:500px) and (max-width:767px){
+  .topcard-img.youthteam div div.w-85 {
+    width: 73% !important;
+}
+
+.topcard-img.matchsumary.lap-none div div.w-85 {
+  width: 73% !important;
+}
+}
+@media only screen and (min-width: 500px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 2), 
+       only screen and (min-width: 500px) and (max-width: 767px) and (min-resolution: 192dpi) {
+        .topcard-img.youthteam div div.w-85 {
+          width: 73% !important;
+      }
+      .topcard-img.matchsumary.lap-none div div.w-85 {
+        width: 73% !important;
+    }
+}
+
+
+
+
+@media(min-width:450px) and (max-width:500px){
+  .position-relative.br-10.br-yellow.mb-3.mx-1.px-0.mt-120 {
+    margin-top: 140px !important;
+}
+.topcard-img.matchsumary.lap-none {
+  top: -130px !important;
+}
+.position-relative.br-10.br-yellow.mb-3.mt-120{
+  margin-top: 140px !important;
+}
+.topcard-img.youthteam {
+  top: -120px !important;
+}
 }
