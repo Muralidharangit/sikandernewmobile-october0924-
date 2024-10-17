@@ -136,7 +136,7 @@ span.ms-2 {
   background-color: #f2ff00;
 }
 .h-23 {
-  height: 30px;
+  height: 32px;
 }
 .mr-4 {
   margin-right: 4px;
@@ -1942,7 +1942,7 @@ button.bg-blue.br-5.w-100.fs-10.fw-700 {
   height: 32px !important;
   font-size: 11px !important;
 }
-.container.px-4.my-3.text-white.fs-12
+.container.px-1.my-3.text-white.fs-12
 .d-flex.justify-content-between.pb-1:nth-child(3) {
   border-top: 1px solid #ffffff85;
   padding-top: 10px;
@@ -1974,30 +1974,27 @@ button.bg-blue.br-5.w-100.fs-10.fw-700 {
 }
 .bg-lightred.br-5.w-100.fs-10.fw-700 ,
 button.bg-blue.br-5.w-100.fs-10.fw-700 {
-  width: 85px !important;
-  height: 32px !important;
-  font-size: 11px !important;
-}
+  width: 84px !important;
+  height: 38px !important;
+  font-size: 13px !important;}
 
 
 .pop-btn {
-  width: 95px !important;
+  width: 115px !important;
   height: 32px !important;
 }
 
-button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
-  width: 95px !important;
-  height: 32px !important;
-  font-size: 12px !important;
-}
-
+button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black {
+  width: 120px !important;
+  height: 38px !important;
+  font-size: 12px !important;}
 
 
 button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
   font-size: 12px !important;
 }
 .btnh-30 div button{
-  height:32px !important
+  height:38px !important
 }
 
 .topcard-img.youthteam {
@@ -2022,6 +2019,18 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
 .topcard-img.matchsumary.lap-none div div.w-85 {
   width: 94%;
 }
+
+.row.justify-content-center.flex-wrap.px-3.py-2.pad-0.btnh-30 {
+  padding: 0 0px !important;
+  margin: 5px 0;
+}
+
+.mx-375 .d-flex.px-3.gap-18 {
+  padding: 0 5px !important;
+  gap: 10px !important;
+  margin-bottom: 9px;
+}
+
 }
 
 
@@ -2090,4 +2099,29 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
   justify-content: center;
   align-items: center;
   font-size: 19px !important;
+}
+
+@media(max-width:425px){
+  .container.px-1.my-3.text-white.fs-12 {
+    padding: 0 17px !important;
+}
+
+button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black {
+  width: 110px !important;
+}
+.pop-btn {
+  width: 110px !important;}
+
+  .btnh-30 div button {
+    height: 38px !important;
+}
+button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
+  font-size: 10px !important;
+
+  text-transform: uppercase;
+}
+button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
+  font-size: 10px !important;
+
+}
 }
