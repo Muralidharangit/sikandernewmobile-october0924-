@@ -2094,7 +2094,8 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
 }
 }
 
-.d-flex.h-23 .col-3.bg-blue.text-center {
+.d-flex.h-23 .col-3.bg-blue.text-center,
+.d-flex.h-23 .col-3.bg-lightred.text-center {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2128,4 +2129,10 @@ button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
   padding-left: 4px;
   padding-right: 4px;
 }
+}
+
+@media  (max-width: 425){
+  .mx-375 .d-flex.px-3.gap-18 {
+      padding: 0 12px !important;
+  }
 }
