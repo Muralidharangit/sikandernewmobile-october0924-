@@ -277,7 +277,7 @@ body {
   background-color: #170026;
   border-top: 1px solid #bebebe82;
   margin: 0;
-  z-index: 99999999;
+  z-index: 999999;
 
   left: 0;
 }
