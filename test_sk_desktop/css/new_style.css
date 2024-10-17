@@ -1103,7 +1103,8 @@ button.whatapp.icon {
   line-height: 40px;
   width: 50px;
   position: fixed;
-  bottom: 33%;
+  /* bottom: 33%; */
+  bottom: 27%;
   right: 10px;
   z-index: 999;
   /* opacity: 0; */

@@ -1945,7 +1945,7 @@ button.bg-blue.br-5.w-100.fs-10.fw-700 {
 .container.px-1.my-3.text-white.fs-12
 .d-flex.justify-content-between.pb-1:nth-child(3) {
   border-top: 1px solid #ffffff85;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 }
@@ -2123,5 +2123,9 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn {
 button.btn-yellow.br-5.w-100.fs-9.fw-700.pop-btn.text-black{
   font-size: 10px !important;
 
+}
+.d-flex.justify-content-between.btnh-30{
+  padding-left: 4px;
+  padding-right: 4px;
 }
 }
