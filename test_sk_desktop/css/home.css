@@ -1855,7 +1855,7 @@ swiper-container.mySwiper.latest-game.image_play_btn_hover_effect.swiper-slide_b
 
 .offcanvas.offcanvas-bottom.table-popup-container.max-content {
   /* height:40vh !important; */
-  border-radius: 0 0 0px 0px !important;
+  border-radius: 0 0 20px 20px !important;
   margin-bottom: 70px;
   overflow: hidden;
 }
@@ -2010,4 +2010,27 @@ button.btn-purple.text-yellow.br-5.w-100.fs-9.fw-700.pop-btn{
 .topcard-img.matchsumary.lap-none div div.w-85 {
   width: 94%;
 }
+}
+
+
+/* @media screen and (max-height: 561px) { */
+@media only screen and (max-width: 375px) and (max-height: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  /* Your styles here */
+  .menu-border {
+    top: -113px !important;
+  }
+  .list-group.list-group-flush.list-group-cus.px-3.menu-custom-hight.h-100 {
+    margin-top: 84px;
+  }
+  .height-margin {
+    margin-top: 20px !important;
+    margin-top: 66px !important;
+  }
+
+
+  .offcanvas.offcanvas-bottom.table-popup-container.max-content {
+    height: 53% !important;
+    border-radius: 0 0 20px 20px !important;
+}
+ 
 }
